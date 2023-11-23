@@ -8,7 +8,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # 设置 root 用户的密码为 'df19930222'
-RUN echo 'root:df19930222' | chpasswd
+RUN echo 'root:Df19930222' | chpasswd
 
 # 暴露 22，80，443 端口
 EXPOSE 22
